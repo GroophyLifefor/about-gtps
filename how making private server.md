@@ -53,10 +53,10 @@ so we create 4 rule
 yes now make a private server\
 firstly choose an source \
 anddd we need a server_data.php\
-umm i give you [link](https://github.com/Groophy-Lifefor/about-gtps/blob/main/assent/server_data.php) \
+umm i give you [link](https://github.com/Groophy-Lifefor/about-gtps/blob/main/assent/server_data.php) 
 
 hmm okey lets start \
-set it by yourself server_data.php \
+set it by yourself server_data.php 
 
 and copy edited server_data.php \
 goto C:\xampp\htdocs \
@@ -64,14 +64,14 @@ and make a folder name=growtopia \
 and paste in folder \
 open xampp control panel (C:\xampp\xampp-control.exe) \
 and click closest to apache square button \
-Press the start corresponding to apache \
+Press the start corresponding to apache 
 
-okey now \
+okey now 
 
 open source folder and open edit.sln \
 and relesa or debug \
 goto relesa or debug folder and copy server.exe \
-and paste to main folder the private server \
+and paste to main folder the private server 
 
 enjoy it
 

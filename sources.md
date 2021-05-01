@@ -77,3 +77,20 @@ http://www.mediafire.com/file/g3to3s12zp38yl4/GrowCountry+V1.rar/file
 
 gtos json (idk what)
 https://www.mediafire.com/file/llp89crfxadv2eu/GTOS_JSON.rar/file
+
+turk topia(ı mean 1gb)(new)
+https://dosya.co/tlk34ekejtei/TurkTopia.rar.html
+
+gtos pro source(peh)(new)
+https://www.mediafire.com/file/qq5gfvpvbms8md1/GTOS_PRO_SOURCE.rar/file
+
+gtfy(new)
+https://www.mediafire.com/file/3ui8pc3tu71dj7y/GTFY.rar/file
+
+growtr(new)
+https://www.mediafire.com/file/dqcctnp2bngzdka/GrowTR.rar/file
+
+gtlt(backup)(new)
+https://www.mediafire.com/file/jnwmhmt2hojg4ce/GTLT+BACKUP.zip/file
+
+

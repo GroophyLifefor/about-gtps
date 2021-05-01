@@ -123,3 +123,6 @@ gtlt(backup)(new)
 https://www.mediafire.com/file/jnwmhmt2hojg4ce/GTLT+BACKUP.zip/file
 
 
+### credit = github:  [zKaan](https://github.com/zKaan) \
+
+gtos lastest= https://github.com/zKaan/GTOSLatest

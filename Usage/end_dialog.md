@@ -42,7 +42,7 @@ if (isFindDialog) {
 ```
 goto more down and add
 ```c-plus-plus
-else if (isFindDialog) {
+if (isFindDialog) {
 //dialog area
 Example: 
 GamePacket p = packetEnd(appendString(appendString(createPacket(), "OnConsoleMessage"), "You wanted itemid: " + itemFind));

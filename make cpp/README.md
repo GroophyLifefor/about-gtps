@@ -1126,6 +1126,8 @@ PlayerMoving* unpackPlayerMoving(char* data)
 	return dataStruct;
 }
 ```
+#### Why change it?
+- Because it would throw an error if it is not used with C++14.
 ```cpp
 /*structes.h*/
 struct PlayerMoving {

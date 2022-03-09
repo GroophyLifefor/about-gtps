@@ -1083,7 +1083,7 @@ PlayerMoving* unpackPlayerMoving(BYTE* data)
 #### If you are using C++17 or 20 then you should use 
 ```cpp
 /*somevoids.h*/
-BYTE* GetStructPointerFromTankPacket(ENetPacket* packet)
+char* GetStructPointerFromTankPacket(ENetPacket* packet)
 {
 	unsigned int packetLenght = packet->dataLength;
 	BYTE* result = NULL;

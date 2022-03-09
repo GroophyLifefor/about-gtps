@@ -1080,7 +1080,7 @@ PlayerMoving* unpackPlayerMoving(BYTE* data)
 	return dataStruct;
 }
 ```
-#### If you are using C++17 or 20 then you should use 
+#### For people using C++17 and higher:
 ```cpp
 /*somevoids.h*/
 char* GetStructPointerFromTankPacket(ENetPacket* packet)
@@ -1126,6 +1126,7 @@ PlayerMoving* unpackPlayerMoving(char* data)
 	return dataStruct;
 }
 ```
+</br>
 ```cpp
 /*structes.h*/
 struct PlayerMoving {

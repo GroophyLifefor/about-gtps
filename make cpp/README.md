@@ -97,6 +97,7 @@ int GetMessageTypeFromPacket(ENetPacket* packet)
 	return result;
 }
 ```
+
 ```cpp
 case ENET_EVENT_TYPE_RECEIVE:
 	int messageType = GetMessageTypeFromPacket(event.packet);
@@ -1064,6 +1065,52 @@ BYTE* GetStructPointerFromTankPacket(ENetPacket* packet)
 }
 
 PlayerMoving* unpackPlayerMoving(BYTE* data)
+{
+	PlayerMoving* dataStruct = new PlayerMoving;
+	dataStruct->packetType = *(int*)(data);
+	dataStruct->netID = *(int*)(data + 4);
+	dataStruct->characterState = *(int*)(data + 12);
+	dataStruct->plantingTree = *(int*)(data + 20);
+	dataStruct->x = *(float*)(data + 24);
+	dataStruct->y = *(float*)(data + 28);
+	dataStruct->XSpeed = *(float*)(data + 32);
+	dataStruct->YSpeed = *(float*)(data + 36);
+	dataStruct->punchX = *(int*)(data + 44);
+	dataStruct->punchY = *(int*)(data + 48);
+	return dataStruct;
+}
+```
+#### If you are using C++17 or 20 then you should use 
+```cpp
+/*somevoids.h*/
+BYTE* GetStructPointerFromTankPacket(ENetPacket* packet)
+{
+	unsigned int packetLenght = packet->dataLength;
+	BYTE* result = NULL;
+	if (packetLenght >= 0x3C)
+	{
+		BYTE* packetData = packet->data;
+		result = packetData + 4;
+		if (*(BYTE*)(packetData + 16) & 8)
+		{
+			if (packetLenght < *(int*)(packetData + 56) + 60)
+			{
+				cout << "[!] Packet too small for extended packet to be valid" << endl;
+				cout << "[!] Sizeof float is 4.  TankUpdatePacket size: 56" << endl;
+				result = 0;
+			}
+		}
+		else
+		{
+			int zero = 0;
+			memcpy(packetData + 56, &zero, 4);
+		}
+	}
+	char* cresult = (char*)result;
+	return cresult;
+}
+
+PlayerMoving* unpackPlayerMoving(char* data)
 {
 	PlayerMoving* dataStruct = new PlayerMoving;
 	dataStruct->packetType = *(int*)(data);

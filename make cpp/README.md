@@ -1126,7 +1126,6 @@ PlayerMoving* unpackPlayerMoving(char* data)
 	return dataStruct;
 }
 ```
-</br>
 ```cpp
 /*structes.h*/
 struct PlayerMoving {

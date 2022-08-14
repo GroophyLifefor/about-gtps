@@ -77,7 +77,7 @@ https://s4.dosya.tc/server11/lepzx4/GrowtopiaServer-master.zip.html
 gten (hello erben)
 https://s4.dosya.tc/server11/4mz6t6/GTEN.rar.html
 
-gtws (hello noob whatan)
+gtws (whatan bitanem valla annenle aldatmadım seni, açıklamama izin ver)
 https://www.dosya.tc/server29/tiqwuy/GrowtopiaWS.rar.html
 
 gtpsv3.1 (idk what)
